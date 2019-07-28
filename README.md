@@ -644,7 +644,8 @@ When I recover the object "Company"... should I recover all the games from that 
 - If we want to recover them in a more selective way we will use what is called Lazy loading.
 
 
-One-to-Many mapping example 
+One-to-Many mapping example
+---------------------------
 
 
 Using the data base we have used until now we add a couple of tables: "company" and "company_detail".
