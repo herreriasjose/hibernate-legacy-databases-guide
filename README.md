@@ -1509,6 +1509,7 @@ We see that we have united in a single object the companies together with their 
 Wrapping Up
 -----------
 
-To sum up, from my experience, Hibernate works great for projects that are very CRUD oriented. But for projects that contain legacy databases, complex queries and functionality within them, I would suggest combining it with simple SQL queries before going deeper into the myriad of options that Hibernate offers.
+To sum up, "JPA and Hibernate were never meant to substitute SQL5, and native queries are unavoidable
+in any non-trivial enterprise application" (Mihalcea, 2020). Hibernate works great for projects that are very CRUD oriented. But for projects that contain legacy databases, complex queries and functionality within them, I would suggest combining it with simple SQL queries before going deeper into the myriad of options that Hibernate offers.
 
 
